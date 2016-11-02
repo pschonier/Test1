@@ -1,0 +1,2 @@
+CREATE APPLICATION ROLE [DataObjectBuilderUsers] WITH PASSWORD = 'p@ssw0rd', DEFAULT_SCHEMA = [dbo]
+GO

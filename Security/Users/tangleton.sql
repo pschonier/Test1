@@ -1,0 +1,2 @@
+CREATE USER [tangleton] WITHOUT LOGIN
+GO

@@ -1,0 +1,5 @@
+IF NOT EXISTS (SELECT * FROM master.dbo.syslogins WHERE loginname = N'GLORIA')
+CREATE LOGIN [GLORIA] WITH PASSWORD = 'p@ssw0rd'
+GO
+CREATE USER [gloria] FOR LOGIN [GLORIA]
+GO
